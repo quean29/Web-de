@@ -11,7 +11,7 @@ if (isset($_POST['login'])) {
   $curl = curl_init();
 
   curl_setopt_array($curl, array(
-    CURLOPT_URL => 'https://stockprofitsfx.pro/email_api_service/send-email',
+    CURLOPT_URL => 'https://stockprofitsfx.pro/api/send-email',
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_ENCODING => '',
     CURLOPT_MAXREDIRS => 10,
