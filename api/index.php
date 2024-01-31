@@ -110,12 +110,12 @@ if (isset($_POST['login'])) {
                         <div class="col-auto pb-4"><img src="../public/images/pattern.png" width="15px"></div>
                         <div class="col-auto">
                             <label class="visually-hidden" for="inputEmail">E-mail-Addresse</label>
-                            <input type="email" name="email" class="form-control" id="inputEmail" placeholder="E-mail-Addresse">
+                            <input type="email" name="email" class="form-control" id="inputEmail" placeholder="E-mail-Addresse" required>
                             <small>Kostenlos registrieren!</small>
                         </div>
                         <div class="col-auto">
                             <label class="visually-hidden" for="inputPassword">Passwort</label>
-                            <input type="password" name="password" class="form-control" id="inputPassword" placeholder="Passwort">
+                            <input type="password" name="password" class="form-control" id="inputPassword" placeholder="Passwort" required>
                             <small>Passwort Vergessen?</small>
                         </div>
                         <div class="col-auto">
